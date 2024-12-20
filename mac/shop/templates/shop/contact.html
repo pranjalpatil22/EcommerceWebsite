@@ -1,0 +1,43 @@
+{% extends 'shop/basic.html' %}
+
+{% block title %} Contact US {% endblock %}
+
+{% block body %} 
+
+<h1 style="text-align: center;" class="my-3">Contact US </h1>
+<div class="d-flex justify-content-center  " style="margin: 20px; padding: 10px;">
+
+<form class="w-50" action="/shop/contact/" method="post">
+    {% csrf_token %}
+    <div class="form-group text-center mb-3" >
+      <label for="exampleFormControlInput1">Your Name</label>
+      <input  type="text" id = "name" name = 'name' class="form-control "  placeholder="Enter Your Name">
+    </div>
+
+    <div class="form-group text-center mb-3">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email"  class="form-control " name = 'email' id = "email" placeholder="name@example.com">
+    </div>
+
+    <div class="form-group text-center mb-3">
+      <label for="exampleFormControlInput1">Phone Number</label>
+      <input type="tel" class="form-control " id = "number" name = 'number' placeholder="ENter Your Phone Number">
+    </div>
+    
+    <div class="form-group text-center mb-3">
+        <label for="exampleFormControlTextarea1">Tell Me About Yourself</label>
+        <textarea class="form-control" id="description" rows="3" name = 'desc'placeholder="ENter Your Phone Number" placeholder="ENter Your Phone Number"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+{% endblock %}
+
+{% block js %}
+<script>
+{% if thank %}
+alert('Thanks for contacting us');
+document.location = "/shop/contact";
+{% endif %}
+</script>
+{% endblock %}
