@@ -82,11 +82,7 @@ This project is open to suggestions, improvements, and collaborations. Feel free
 [![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=flat&logo=leetcode)](https://leetcode.com/u/pranjal_patil/)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-darkgreen?style=flat&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/pranjalp08c1/)
 
----
 
-## 🎥 Demo Video
-
-👉 [Click here to watch the demo](demo.mp4)
 
 ---
 
