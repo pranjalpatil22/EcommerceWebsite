@@ -71,7 +71,7 @@ To run this project locally:
 
 ---
 
-🌟 Feedback & Contributions
+🌟 Feedback & Contributions  
 This project is open to suggestions, improvements, and collaborations. Feel free to fork the repo, explore the code, and share your feedback.
 
 
